@@ -9,6 +9,7 @@ import ReachSection from './ReachSection';
 import { ToastProvider } from 'react-toast-notifications';
 import Approach from './Approach';
 import Banner from './Banner';
+import FeatureBrands from './FeatureBrands';
 
 const Layout = ({children}) => {
     return (
@@ -22,6 +23,7 @@ const Layout = ({children}) => {
         <HowItWorksFirst/>
         <HowItWorksSecond/>
         <ReachSection/>
+        <FeatureBrands/>
         <Approach/>
         <ToastProvider>
         <Contact/>
