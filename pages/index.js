@@ -14,8 +14,8 @@ export default function Home({articles}) {
       </Head>
 
       <main >
-      <div class="sm:flex flex-wrap justify-center items-center text-center gap-8 my-6">
-        {articles.map(article=><Articles article={article}/>)}
+      <div className="sm:flex flex-wrap justify-center items-center text-center gap-8 my-6">
+        {articles.map(article=><Articles key={article.id} article={article}/>)}
       </div>
       </main>
     </div>

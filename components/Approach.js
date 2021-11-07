@@ -1,4 +1,3 @@
-import React from 'react';
 import approachImage from '../assets/images/circle.jpeg'
 import  Image  from 'next/image';
 import  Fade  from 'react-reveal/Fade';
@@ -10,7 +9,7 @@ const Approach = () => {
                     Our Approach
                 </h3>
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has <br/> been the industry's standard dummy text ever since the 1500s
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has <br/> been the industry`&apos;`s standard dummy text ever since the 1500`&lsquo;`
                 </p>
             </div>
             <div className="relative -z-10 text-center">

@@ -16,12 +16,14 @@ const Footer = () => {
                 <div>
                     <div className="mx-auto">
                         <Link href="/">
+                            <a>
                             <Image className=""
                                 src="https://i.ibb.co/h7VShM7/world-globe.png"
                                 alt="Picture of the circle"
                                 width={125}
                                 height={125}
                             />
+                            </a>
                         </Link>
                     </div>
                     <div className="flex text-4xl py-7 text-red-500 -ml-6">
